@@ -1,8 +1,20 @@
+import { HashRouter, Routes, Route } from 'react-router-dom'
+import Layout from './components/Layout'
+import Home from './pages/Home'
+import About from './pages/About'
+import CaseStudy from './pages/CaseStudy'
+
 function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <HashRouter>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/casestudy" element={<CaseStudy />} />
+        </Routes>
+      </Layout>
+    </HashRouter>
   )
 }
 
