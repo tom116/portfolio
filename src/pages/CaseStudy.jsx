@@ -217,7 +217,7 @@ function ZaraCaseStudy() {
                 <span className="w-2 h-2 rounded-full bg-[#9146ff]"></span>
                 Visibility
               </h3>
-              <div className="space-y-3">
+              <div className="space-y-4">
                 <p className="text-gray-300">
                   <strong className="text-white">Issue:</strong> Critical navigation elements were 
                   hidden or difficult to discover, requiring users to hover or guess where important 
@@ -228,6 +228,25 @@ function ZaraCaseStudy() {
                   with visible category menus and prominent search functionality. Added breadcrumb 
                   navigation and sticky headers to maintain context throughout the shopping journey.
                 </p>
+                {/* Before/After Images */}
+                <div className="grid md:grid-cols-2 gap-4 mt-4">
+                  <div className="bg-gray-900/50 rounded-lg p-3 border border-gray-700">
+                    <h4 className="text-red-400 text-sm font-semibold mb-2 text-center">Before</h4>
+                    <img 
+                      src="/portfolio/visibility.png" 
+                      alt="Visibility issue - before redesign" 
+                      className="w-full rounded border border-gray-700 object-contain"
+                    />
+                  </div>
+                  <div className="bg-gray-900/50 rounded-lg p-3 border border-gray-700">
+                    <h4 className="text-green-400 text-sm font-semibold mb-2 text-center">After</h4>
+                    <img 
+                      src="/portfolio/visibility_fix.png" 
+                      alt="Visibility improvement - after redesign" 
+                      className="w-full rounded border border-gray-700 object-contain"
+                    />
+                  </div>
+                </div>
                 <p className="text-gray-300">
                   <strong className="text-white">Outcome:</strong> Users reported 40% faster task 
                   completion times and significantly improved ability to locate desired products. 
@@ -242,7 +261,7 @@ function ZaraCaseStudy() {
                 <span className="w-2 h-2 rounded-full bg-[#2563eb]"></span>
                 Feedback
               </h3>
-              <div className="space-y-3">
+              <div className="space-y-4">
                 <p className="text-gray-300">
                   <strong className="text-white">Issue:</strong> Users received minimal or delayed 
                   feedback when interacting with elements, making it unclear if actions were successful 
@@ -253,6 +272,25 @@ function ZaraCaseStudy() {
                   for all interactions including button states, loading indicators, and confirmation 
                   messages. Added micro-animations to provide clear system status updates.
                 </p>
+                {/* Before/After Images */}
+                <div className="grid md:grid-cols-2 gap-4 mt-4">
+                  <div className="bg-gray-900/50 rounded-lg p-3 border border-gray-700">
+                    <h4 className="text-red-400 text-sm font-semibold mb-2 text-center">Before</h4>
+                    <img 
+                      src="/portfolio/feedback.png" 
+                      alt="Feedback issue - before redesign" 
+                      className="w-full rounded border border-gray-700 object-contain"
+                    />
+                  </div>
+                  <div className="bg-gray-900/50 rounded-lg p-3 border border-gray-700">
+                    <h4 className="text-green-400 text-sm font-semibold mb-2 text-center">After</h4>
+                    <img 
+                      src="/portfolio/feedback_fix.png" 
+                      alt="Feedback improvement - after redesign" 
+                      className="w-full rounded border border-gray-700 object-contain"
+                    />
+                  </div>
+                </div>
                 <p className="text-gray-300">
                   <strong className="text-white">Outcome:</strong> User satisfaction scores improved 
                   by 35%, with users expressing greater confidence in their interactions. Error rates 
@@ -267,7 +305,7 @@ function ZaraCaseStudy() {
                 <span className="w-2 h-2 rounded-full bg-[#9146ff]"></span>
                 Constraints
               </h3>
-              <div className="space-y-3">
+              <div className="space-y-4">
                 <p className="text-gray-300">
                   <strong className="text-white">Issue:</strong> Lack of proper design constraints 
                   allowed users to make errors easily, such as selecting invalid product combinations 
@@ -278,6 +316,25 @@ function ZaraCaseStudy() {
                   disabled invalid options, and provided real-time guidance to prevent user errors 
                   before they occur. Added contextual help and tooltips for complex interactions.
                 </p>
+                {/* Before/After Images */}
+                <div className="grid md:grid-cols-2 gap-4 mt-4">
+                  <div className="bg-gray-900/50 rounded-lg p-3 border border-gray-700">
+                    <h4 className="text-red-400 text-sm font-semibold mb-2 text-center">Before</h4>
+                    <img 
+                      src="/portfolio/constraint.png" 
+                      alt="Constraint issue - before redesign" 
+                      className="w-full rounded border border-gray-700 object-contain"
+                    />
+                  </div>
+                  <div className="bg-gray-900/50 rounded-lg p-3 border border-gray-700">
+                    <h4 className="text-green-400 text-sm font-semibold mb-2 text-center">After</h4>
+                    <img 
+                      src="/portfolio/constraint_fix.png" 
+                      alt="Constraint improvement - after redesign" 
+                      className="w-full rounded border border-gray-700 object-contain"
+                    />
+                  </div>
+                </div>
                 <p className="text-gray-300">
                   <strong className="text-white">Outcome:</strong> Form completion errors reduced 
                   by 50%, and users appreciated the proactive guidance. Cart abandonment related 
